@@ -6,15 +6,29 @@
     background-image: linear-gradient(180deg, #38504d 0,#38615c);
 }
 
-/* GRID */ 
-.grid-icons {
-    display: grid;
-    gap: 40px;
-    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+.background-color-layer{
+    box-shadow: none;
+    /* add box shadow */
+}
+
+.flex-icons {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 .box-icons {
-    width: 100%;
+    text-align: center;
+}
+
+.box-icons:hover {
+    transform: scale(1.1);
+}
+
+.icon-model {
+    border: 1px solid #838383;
+    border-radius: 50px;
 }
 
 .grid-projects {
@@ -39,3 +53,26 @@
     color: rgb(34, 34, 34);
     box-shadow: 1px 1px 4px black;
 }
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    padding: 20px 0;
+    background: rgba(255, 0, 0, 0.2);;
+}
+
+footer > p {
+    text-align: center;
+}
+
+@media ( max-width: 768px ) {
+    footer {
+        flex-direction: column;
+    }
+}
+
+/* 
+    Programa que reduz o tamanho de foto: https://imagecompressor.com/
+*/
