@@ -51,6 +51,7 @@
 }
 
 .btn-submit {
+    background: linear-gradient(.25turn, #38605C, 10%, #38605c8e);
     color: rgb(44, 44, 44);
 }
 
