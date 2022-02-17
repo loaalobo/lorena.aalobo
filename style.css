@@ -44,6 +44,10 @@
     box-shadow: 1px 1px 3px black;
 }
 
+.box:hover {
+    transform: scale(1.005);
+}
+
 .btn-submit {
     color: rgb(44, 44, 44);
 }
