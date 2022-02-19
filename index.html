@@ -210,18 +210,24 @@
           <div class="card">
             <div class="card-block">
               <h2>Contato</h2>
-              <form action="" class="reveal-content">
+              <form action="https://api.staticforms.xyz/submit" method="post" class="reveal-content">
+                <input type="hidden" name="accessKey" value="f623d2cd-74ba-4cf5-b2fb-8b49fdd2ce49">
+                <input type="hidden" name="redirectTo" value="https://loaalobo.github.io/portifolio/">
+
                 <div class="form-group">
-                  <input type="email" class="form-control" id="email" placeholder="E-mail">
+                  <input type="email" name="email" class="form-control" id="email" placeholder="E-mail">
                 </div>
+
                 <div class="form-group">
-                  <input type="text" class="form-control" id="subject" placeholder="Assunto">
+                  <input type="text" name="subject" class="form-control" id="subject" placeholder="Assunto">
                 </div>
+
                 <div class="form-group">
-                  <textarea class="form-control" rows="5" placeholder="Sua mensagem"></textarea>
+                  <textarea name="message" class="form-control" rows="5" placeholder="Sua mensagem"></textarea>
                 </div>
+
                 <div class="form-group">
-                  <button type="submit" class="btn btn-sm btn-submit">Enviar mensagem</button>
+                  <button name="submit" type="submit" class="btn btn-sm btn-submit">Enviar mensagem</button>
                 </div>
               </form>
             </div>
