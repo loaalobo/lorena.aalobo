@@ -69,6 +69,15 @@
     transform: scale(1.005);
 }
 
+/* Não está responsivo */
+.box-img { 
+    height: 192.8px;
+}
+
+.box-descricao {
+    text-align: center;
+}
+
 .btn-submit {
     background: rgb(204, 204, 204);
     color: rgb(44, 44, 44);
