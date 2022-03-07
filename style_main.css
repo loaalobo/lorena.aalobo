@@ -6,8 +6,12 @@
     background-image: linear-gradient(180deg, #38504d 0,#38615c);
 }
 
-.background-color-layer{
+.background-color-layer {
     box-shadow: inset 0 -40px 60px 10px #38615c;
+}
+
+.date-title > a:hover {
+    color:#38615c;
 }
 
 .card-link-bottom {
