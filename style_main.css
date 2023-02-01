@@ -53,6 +53,11 @@
     border-radius: 50px;
 }
 
+.icon-size {
+    width: 20px;
+    height: 20px;
+}
+
 .grid-projects {
     display: grid;
     gap: 20px;
